@@ -1,0 +1,58 @@
+@charset "UTF-8";
+#content {
+	width:950px;
+	height:450px;
+	padding:60px;
+	margin:0 auto;
+}
+table {
+	width:900px;
+	margin:3px auto;
+}
+#second_table {
+	background-color: gray;	
+	margin-bottom: 25px;
+}
+caption {
+	font-size:2.5em;
+	font-weight : bold;
+	text-align : left;
+	width:900px;
+	margin:15px 0 30px 10px; 
+}
+.lecture_btn {
+	background-color: black;
+	height: 37px;
+	padding:5px;
+	color:white;
+	font-weight: bold;
+	border:2px double gray;
+	width: 100px;
+	margin-left:5px;
+}
+.lecture_btn:hover {
+	cursor: pointer;
+}
+#totCnt {
+	font-weight: lighter;
+	font-size:.7em;
+}
+#tr_th{
+	background-color: #cccccc;
+	height:30px;
+}
+.td_content,.td_content1 {
+	height:50px;
+	padding-left:10px;
+	background-color: white;
+}
+.td_content1 {
+	text-align: center;
+}
+.paging, .paging a {
+	text-align: center;
+	font-size:1.1em;
+}
+.paging b {
+	font-weight: bold;
+}

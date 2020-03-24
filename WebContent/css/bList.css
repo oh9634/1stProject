@@ -1,0 +1,55 @@
+@charset "UTF-8";
+#content table {
+	border: 2px double black;
+	width:90%;
+	margin: 0px auto;
+	background-image: url('https://i.pinimg.com/236x/da/aa/53/daaa53fa0f7b90a2f4c577a633ea53a9.jpg');
+}
+#content table th {
+	height:40px;
+	color:white;
+	font-size: 1.1em;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	background-image: url('/academy/img/mainBack.jpg');
+	
+}
+#content table tr {
+	height:38px;
+	background-image: url('https://i.pinimg.com/236x/da/aa/53/daaa53fa0f7b90a2f4c577a633ea53a9.jpg');
+	color:black;
+}
+#content table tr:hover {
+	cursor: pointer;
+}
+#content table tr:hover td {
+	color:black;
+	font-weight: bold;
+}
+#content table .board, #content table td a {
+	text-align: center;
+	color:black;
+}
+#content table .title {
+	text-align: left;
+	padding-left:20px;
+}
+#content table .title span{
+	font-weight: bold;
+	color:blue;
+}
+#content .paging {
+	text-align: center;
+	margin:10px;
+}
+#content .write_btn {
+	background-color: black;
+	color:white;
+	font-weight:bold;
+	width:100px;
+	height:38px;
+	margin-top:7px;
+}
+#content .write_btn:hover {
+	cursor: pointer;
+}

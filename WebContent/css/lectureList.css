@@ -1,0 +1,65 @@
+@charset "UTF-8";
+#content_form {
+	width:1000px;
+	height:550px;
+	padding:40px;
+	margin:0 auto;
+	background-image: url('/academy/productUp/배경24.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+table {
+	width:900px;
+	height:400px;
+	margin:15px auto;
+	overflow: hidden;
+}
+table #lName {
+	font-weight: bold;
+	font-size:2.8em;
+	text-align:center;
+	margin-bottom:45px;
+	color:white;
+}
+table #lInfo {
+	font-size:0.7em;
+}
+table .lContentId {
+	opacity : 0.7;
+	width: 350px;
+	padding:40px;
+	margin:5px;
+	background-color: gainsboro;
+	float: left;
+	height:200px;
+}
+table .lContent, table .lContent2 {
+	font-size:1.1em;
+	font-weight : bold;
+	text-align:left;
+	padding:8px;
+	margin:10px;
+	color:black;	
+}
+table .lContent {
+	border-bottom:1px dashed olive;
+}
+.paging, .paging a {
+	text-align: center;
+	color:white;
+	font-size:1.1em;
+	font-weight: bold;
+}
+.paging b {
+	color:red;
+}
+.btn {
+	height:40px;
+	width:100px;
+	font-weight: bold;
+	margin-left:400px;
+	margin-top:20px;
+}
+.btn:hover {
+	cursor: pointer;
+}

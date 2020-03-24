@@ -1,0 +1,55 @@
+@charset "UTF-8";
+#content_form{
+	width: 1000px; 
+	height:850px; 
+	padding:20px;
+	margin: 0 auto;
+}
+#content_form fieldset {
+	background-color: white;
+	width: 550px; 
+	height:780px;
+	margin: 0 auto;
+	background-image: url('https://i.pinimg.com/236x/da/aa/53/daaa53fa0f7b90a2f4c577a633ea53a9.jpg');
+}
+
+#content_form #logo {
+	width:350px;
+	border:none;
+}
+#content_form img:last-child {
+	border:1px solid black;
+}
+#content_form table {
+	width:530px;
+	height:550px;
+	margin:0 auto;
+	padding-left:30px;
+}
+#content_form table th {
+	text-align: left;
+	font-size:1.4em;
+	font-weight:bold;
+	margin:5px;
+}
+#content_form table td input[type='text'], #content_form table td input[type='password']{
+	height:25px;
+	width: 200px;
+	margin-left:20px;
+}
+#content_form table td input[type='file'] {
+	margin-left:20px;
+}
+#content_form .btn {
+	width:28%;
+	height:45%;
+	margin: 10px 8px;
+	background-color: black;
+	color:white;
+	font-size:1.2em;
+	font-weight: bold;
+}
+
+#content_form .btn:hover {
+	cursor:pointer;
+}

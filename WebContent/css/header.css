@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Typo_DecoSolidSlash';
+	src: url('/academy/font/Typo_DecoSolidSlash.ttf');
+}
+
+@keyframes movetop{
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 3px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes star {
+    0% {
+        transform: translate(120px,0);
+    }
+    100% {
+        transform: translate(-100px,120px);
+    }
+}
+
+@keyframes star2 {
+    0% {
+        transform: translate(100px,0);
+    }
+
+    100% {
+        transform: translate(0px,80px);
+    }
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#header_top {
+	width: 100%;
+	min-width: 1200px;
+	height: 38px;
+	line-height: 38px;
+	overflow: hidden;
+	background: rgb(255, 255, 255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%,
+		rgba(246, 246, 246, 1) 41%, rgba(237, 237, 237, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%,
+		rgba(246, 246, 246, 1) 41%, rgba(237, 237, 237, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%,
+		rgba(246, 246, 246, 1) 41%, rgba(237, 237, 237, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#ededed', GradientType=0);
+}
+
+#header_top .adver {
+	float: left;
+	font-weight: bold;
+	color: black;
+	margin: 0 25px;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 1.2em;
+}
+
+#header_top .adver img {
+	height: 29px;
+}
+
+#header_top .gnb ul {
+	margin-right: 80px;
+}
+
+#header_top .gnb ul li {
+	float: right;
+	margin: 0 6px;
+	height: 35px;
+	color: gray;
+}
+
+#header_top .gnb ul li a {
+	color: gray;
+	font-weight: bold;
+}
+
+#header_info {
+	width: 1000px;
+	margin: 10px auto;
+	height: 80px;
+	line-height: 70px;
+	overflow: hidden;
+}
+
+#header_info .star {
+	float: left;
+	margin-right: 50px;
+}
+
+#header_info .star img {
+	float: left;
+	width: 20px;
+	margin-left: 25px;
+	animation: star 4s ease infinite both;
+}
+
+#header_info div:last-child img {
+	float: left;
+	width: 16px;
+	margin-left: 18px;
+	animation: star2 3s ease-in-out infinite both;
+	animation-delay: 1s;
+}
+
+#header_info .logo {
+	float: left;
+	width: 150px;
+	margin-left: 150px;
+}
+
+#header_info .logo img {
+	height: 80px;
+}
+
+#header_info .search {
+	float: left;
+	width: 310px;
+	margin-top: 15px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#header_info .search input[type=text] {
+	width: 230px;
+	font-size: 15px;
+	padding: 5px;
+	border: none;
+	outline: 0;
+}
+
+#header_info .search .btn_search {
+	width: 35px;
+	height: 35px;
+	background-image: url('/academy/img/돋보기.PNG');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	border: 0;
+	outline: 0;
+}
+
+#header_info .search .btn_search:hover {
+	cursor: pointer;
+}
+
+#header_banner {
+	width: 100%;
+	min-width: 1200px;
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+	background-image: url('/academy/img/bannerBack.jpg');
+	overflow: hidden;
+	text-align: center;
+	z-index: 9999;
+	border-top: 3px solid black;
+	border-bottom: 1px solid black;
+}
+
+#header_banner .banner_menu img {
+	height: 39px;
+	width: 45px;
+}
+
+#header_banner .banner_menu ul {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#header_banner .banner_menu ul li {
+	float: left;
+	width: 240px;
+	text-align: center;
+}
+
+#header_banner ul li a {
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+
+#header_banner ul li:hover a {
+	color: black;
+	background: rgb(255, 255, 255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%,
+		rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%,
+		rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%,
+		rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#ededed', GradientType=0);
+}
+
+#event {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#event p {
+	position: absolute;
+	right: 180px;
+	z-index: 99;
+}
+
+#event p img {
+	height: 40px;
+	padding-top: 5px;
+}
+
+.move {
+	animation: movetop 0.7s linear infinite alternate;
+}
